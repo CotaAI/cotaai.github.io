@@ -1,0 +1,7 @@
+[book]
+title = "My Project Documentation"
+author = "Your Name"
+description = "This is the documentation for my project."
+
+[output.html]
+default-theme = "light"
