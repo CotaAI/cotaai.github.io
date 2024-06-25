@@ -5,3 +5,6 @@ description = "This is the documentation for my project."
 
 [output.html]
 default-theme = "light"
+
+[preprocessor.multilang]
+language-table = { "zh" = "中文", "en" = "English" }
