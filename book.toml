@@ -2,10 +2,6 @@
 title = "My Project Documentation"
 author = "Your Name"
 description = "This is the documentation for my project."
-multilingual = true
 
 [output.html]
 default-theme = "light"
-
-[preprocessor.multilang]
-language-table = { "zh" = "中文", "en" = "English" }
