@@ -6,6 +6,6 @@
   - [准备环境](installation/env_1.md)
   - [安装cota](installation/install_2.md)
 
-[Chapter 2](chapter_2.md)
-  - [Subchapter 1](subchapter/subchapter_1.md)
-  - [Subchapter 2](subchapter/subchapter_2.md)
+[Chapter_2](chapter_2.md)
+  - [Subchapter](subchapter/subchapter_1.md)
+  - [Subchapter](subchapter/subchapter_2.md)
