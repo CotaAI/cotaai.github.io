@@ -14,7 +14,7 @@
 # 基础概念
 - [Channel]()
 - [Message]()
-- [Action]()
+- [Action](concepts/action.md)
 - [DST]()
 - [Agent]()
 - [LLM]()
