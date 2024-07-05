@@ -12,7 +12,7 @@
 - [配置说明]()
 
 # 基础概念
-- [Channel]()
+- [Channel](concepts/channel.md)
 - [Message]()
 - [Action](concepts/action.md)
 - [DST](concepts/dst.md)
