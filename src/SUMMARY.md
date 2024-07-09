@@ -13,7 +13,7 @@
 
 # 基础概念
 - [Channel](concepts/channel.md)
-- [Message]()
+- [Message](concepts/message.md)
 - [Action](concepts/action.md)
 - [DST](concepts/dst.md)
 - [Agent]()
