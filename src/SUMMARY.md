@@ -7,7 +7,7 @@
 - [安装cota](installation/install_2.md)
 
 # 教程
-- [快速开始]()
+- [快速开始](tutorial/quick_start.md)
 - [最佳实践]()
 - [配置说明]()
 
