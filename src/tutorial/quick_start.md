@@ -6,38 +6,34 @@ cota提供了不同场景的智能体示例，方便用户测试和参考，可�
 cota init
 ```
 
-初始化后会得到如下目录
+执行上面初始化命令后，得到cota_projects目录
 ```
-bots/
-├── agent.yml
-├── endpoints.yml
-├── actions/
-│   ├── Query.yml
-│   ├── Response.yml
-│   ├── Selector.yml
-│   ├── Calculate.yml
-│   └── Weather.yml
-└── dialogue.yml
+cota_projects
+├── simplebot
+│   ├── agent.yml
+│   └── endpoints.yml
+└── taskbot
+    ├── agent.yml
+    ├── endpoints.yml
+    └── task.yml
 ```
+simplebot 和 taskbot是两个agent实例，分别代表了简单的问答agent和任务执行agent。
 
-
-agent.yml
-该文件定义了机器人的行为和对话流程。关键配置项包括：
-
-actions: 定义了机器人可以执行的动作。
-dialogue: 定义了对话的模式和限制。
-endpoints.yml
-该文件定义了机器人的后端服务和LLM（语言模型）的连接信息。关键配置项包括：
-
-base_store: 数据库连接信息。
-channel: 消息通道（如Redis）的连接信息。
-llm: 语言模型的连接信息，包括模型类型、API类型、API密钥和API基础URL。
-
-
+## 文件释义
+agent.yml 定义了智能体的结构和基本要素。
+endpoints.yml 定义运行服务的基本要素，如数据库链接、通信使用的通道配置、LLM token配置等。
 
 ## 运行智能体
+可以选着cota_projects中的任一个智能体运行。在运行之前，需要修改endpoints.yml文件，补全基本的配置；如LLM的token等。
+
+命令行体验agent，进行交互
 ```bash
 cota shell
+```
+
+也可以将cota部署成服务
+```bash
+cota run
 ```
 
 
