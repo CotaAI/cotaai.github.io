@@ -149,15 +149,19 @@ Cota官方会从不同维度，提供和维护多种方法，以支持Cota能应
 * 描述：
 * 返回示例：
 
-**current_form_slots_description**
-* 描述：
-* 返回示例：
-
-**current_form_slots_state**
-* 描述：
-* 返回示例：
-
 **current_form_execute_result**
+* 描述：
+* 返回示例：
+
+**current_form_slot_names**
+* 描述：
+* 返回示例：
+
+**current_form_slot_descriptions**
+* 描述：
+* 返回示例：
+
+**current_form_slot_states**
 * 描述：
 * 返回示例：
 
