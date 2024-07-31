@@ -63,11 +63,15 @@ Cota官方会从不同维度，提供和维护多种方法，以支持Cota能应
 * 描述：
 * 返回示例：
 
+**latest_user_query**
+* 描述：
+* 返回示例：
+
 **action_names**
 * 描述：
 * 返回示例：
 
-**action_names_and_descrptions**
+**action_descriptions**
 * 描述：
 * 返回示例：
 
@@ -75,7 +79,7 @@ Cota官方会从不同维度，提供和维护多种方法，以支持Cota能应
 * 描述：
 * 返回示例：
 
-**bot_action_names_and_descrptions**
+**bot_action_descriptions**
 * 描述：
 * 返回示例：
 
@@ -83,25 +87,41 @@ Cota官方会从不同维度，提供和维护多种方法，以支持Cota能应
 * 描述：
 * 返回示例：
 
-**action_names_and_descrptions_filter_selector**
+**action_descriptions_no_selector**
 * 描述：
 * 返回示例：
 
-**bot_action_names_filter_selector**
+**action_names_for_selector**
 * 描述：
 * 返回示例：
 
-**bot_action_names_and_descrptions_filter_selector**
+**action_descriptions_for_selector**
+* 描述：
+* 返回示例：
+
+**bot_action_names_no_selector**
+* 描述：
+* 返回示例：
+
+**bot_action_descriptions_no_selector**
+* 描述：
+* 返回示例：
+
+**bot_action_names_for_selector**
+* 描述：
+* 返回示例：
+
+**bot_action_descriptions_for_selector**
 * 描述：
 * 返回示例：
 
 ### action序列相关的state
 
-**history_action_names**
+**history_messages**
 * 描述：
 * 返回示例：
 
-**history_action_names_and_results**
+**history_actions**
 * 描述：
 * 返回示例：
 
@@ -120,3 +140,29 @@ Cota官方会从不同维度，提供和维护多种方法，以支持Cota能应
 
 
 ### form相关的state
+
+**current_form_name**
+* 描述：
+* 返回示例：
+
+**current_form_description**
+* 描述：
+* 返回示例：
+
+**current_form_slots_description**
+* 描述：
+* 返回示例：
+
+**current_form_slots_state**
+* 描述：
+* 返回示例：
+
+**current_form_execute_result**
+* 描述：
+* 返回示例：
+
+**current_form_messages**
+* 描述：
+* 返回示例：
+
+
