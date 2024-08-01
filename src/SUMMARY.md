@@ -8,8 +8,11 @@
 
 # 教程
 - [快速开始](tutorial/quick_start.md)
-- [最佳实践]()
 - [配置说明]()
+- [最佳实践]()
+  - [实践1](tutorial/best_practices/practice_1.md)
+  - [实践2]()
+  - [实践3]()
 
 # 基础概念
 - [Channel](concepts/channel.md)
